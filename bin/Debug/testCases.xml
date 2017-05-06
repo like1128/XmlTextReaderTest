@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<suite>   
+    <testcase id="001" kind="bvt">
+        <inputs>
+            <arg1>4</arg1>
+            <arg2>7</arg2>          
+		</inputs>
+        <expected>11.00</expected>      
+	</testcase>   
+    <testcase id="002" kind="drt">
+        <inputs>
+            <arg1>9</arg1>
+            <arg2>6</arg2>          
+		</inputs>
+        <expected>15.00</expected>      
+    </testcase>   
+    <testcase id="003" kind="bvt">
+        <inputs>
+            <arg1>5</arg1>
+            <arg2>8</arg2>          
+    </inputs>
+    <expected>13.00</expected>      
+	</testcase>
+ </suite>
